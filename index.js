@@ -50,7 +50,7 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  if (req.method === "GET" && req.url.split("?")[0] === "/") {
+  if (req.method === "GET" && req.url.split("?")[0] === "/prime") {
     const url = new URL(req.url, `http://${req.headers.host}`);
     const duration = Math.min(parseInt(url.searchParams.get("duration") || "5000", 10), 60000);
 

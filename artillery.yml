@@ -18,4 +18,4 @@ scenarios:
   - name: "Stress CPU"
     flow:
       - get:
-          url: "/?duration=100"
+          url: "/prime?duration=100"
