@@ -52,4 +52,4 @@ jobs:
           app-name: 'stresstest'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D84A470E60A74A4684C289692279DE38 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D6D690E0C3E472D9304FD77DE5D5A6F }}
